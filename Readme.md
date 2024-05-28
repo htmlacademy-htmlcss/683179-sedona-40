@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Елена Орлова](https://up.htmlacademy.ru/htmlcss/40/user/683179).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктор Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
