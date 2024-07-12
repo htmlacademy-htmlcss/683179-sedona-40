@@ -771,7 +771,6 @@ body {
   height: 100%;
   z-index: 3;
   background-color: rgba(242, 242, 242, 0.8);
-
 }
 
 .modal {
@@ -780,6 +779,10 @@ body {
   padding: 64px 70px;
   background-color: #ffffff;
   border-radius: 30px;
+}
+
+.modal-container-close {
+  display: none;
 }
 
 .modal-search {
