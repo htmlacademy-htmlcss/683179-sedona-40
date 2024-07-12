@@ -771,7 +771,7 @@ body {
   height: 100%;
   z-index: 3;
   background-color: rgba(242, 242, 242, 0.8);
-  display: none;
+
 }
 
 .modal {
@@ -820,7 +820,6 @@ body {
   grid-template-rows: repeat(4, 1fr);
   row-gap: 48px;
   column-gap: 68px;
-
 }
 
 .field-group {
@@ -839,11 +838,11 @@ body {
 }
 
 .field-group:nth-child(3) {
-  /* grid-column: 1 / 2; */
+  grid-column: 1 / 2;
 }
 
 .field-group:nth-child(4) {
-  /* grid-column: 2 / 3; */
+  grid-column: 2 / 3;
 }
 
 .search-form-label {
@@ -858,7 +857,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  column-gap: 48px;
+  /* column-gap: 48px; */
   width: 100%;
   margin-left: 18px;
 }
@@ -886,6 +885,9 @@ body {
   opacity: 1;
   color: #000000;
 }
+
+
+
 
 .search-form-message {
   position: absolute;
@@ -927,8 +929,36 @@ body {
 
 .search-form-input[type="number"] {
   text-align: center;
-  margin-left: 46px;
-  position: relative;
+}
+
+.button-minus {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  left: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/modal/minus-button.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.button-plus {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  right: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/modal/plus-button.svg");
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 .search-form-label {

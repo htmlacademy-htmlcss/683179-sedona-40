@@ -179,7 +179,7 @@
       </footer>
     </div>
 
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-search">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -205,16 +205,20 @@
             </div>
             <div class="field-group">
               <label class="search-form-label" for="search-form-quantity-adult">Взрослые:</label>
-                <button type="button"></button>
+              <div class="input-container">
                 <input class="search-form-input" type="number" value="2" min="1" max="10">
-                <button type="button"></button>
+                <button class="button-minus" type="button"></button>
+                <button class="button-plus" type="button"></button>
+              </div>
             </div>
             <div class="field-group">
               <label class="search-form-label" for="search-form-quantity-child">Дети:</label>
               <span class="tooltip">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно</span>
-                <button type="button button-minus"></button>
+              <div class="input-container">
                 <input class="search-form-input" type="number" value="2" min="0" max="10">
-                <button type="button button-plus"></button>
+                <button class="button-minus" type="button"></button>
+                <button class="button-plus" type="button"></button>
+              </div>
             </div>
             <button class="button search-button" type="submit">Найти</button>
           </form>
