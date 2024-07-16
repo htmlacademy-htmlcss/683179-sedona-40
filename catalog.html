@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="page-container">
-    <header class="main-header">
+    <header class="main-header" data-test="header">
         <nav class="main-header-nav">
           <a class="logo-link" href="index.html">
             <img class="main-header-logo" src="images/logo-header.svg" width="140" height="70" alt="Эмблема города">
@@ -52,7 +52,7 @@
           </p>
         </nav>
     </header>
-    <main class="catalog-main">
+    <main class="catalog-main" data-test="main">
       <div class="catalog-filter-wrapper">
         <h1>Гостиницы Седоны</h1>
       <div class="breadscrumbs">
@@ -67,7 +67,7 @@
           </li>
         </ol>
       </div>
-      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post">
+      <form class="filter-form" action="https://echo.htmlacademy.ru/" method="post" data-test="filter">
         <fieldset class="catalog-filter-group">
           <legend class="filter-title">Инфраструктура:</legend>
           <ul class="filter-list">
@@ -151,7 +151,7 @@
         </p>
       </form>
     </div>
-      <section class="catalog">
+      <section class="catalog"  data-test="catalog">
         <h2 class="visually-hidden">Результат поиска гостиниц</h2>
         <header class="catalog-header">
           <h3>Найдено гостиниц: 38</h3>
@@ -185,7 +185,7 @@
             <article class="catalog-card">
               <a class="card-title-link" href="#">
                 <h4 class="card-title">Amara Resort & Spa</h4>
-                <img class="card-img" src="images/catalog/catalog-for-amara.jpg" width="280" height="212" alt="Неподалеку расположенная достопримечательность: вид из ущелья на звездное небо">
+                <img class="card-img" src="images/catalog/catalog-for-amara.jpg" width="300" height="212" alt="Неподалеку расположенная достопримечательность: вид из ущелья на звездное небо">
               </a>
               <section class="card-description">
                 <h5 class="visually-hidden">Описание карточки Amara Resort & Spa</h5>
@@ -209,7 +209,7 @@
             <article class="catalog-card">
               <a class="card-title-link"  href="#">
                 <h4 class="card-title">Villas at Poco Diablo</h4>
-                <img class="card-img" src="images/catalog/catalog-for-pocodiablojpg.jpg" width="280" height="212" alt="Вид из гостиницы: на горы">
+                <img class="card-img" src="images/catalog/catalog-for-pocodiablojpg.jpg" width="300" height="212" alt="Вид из гостиницы: на горы">
               </a>
               <section class="card-description">
                 <h5 class="visually-hidden">Описание карточки Villas at Poco Diablo</h5>
@@ -233,7 +233,7 @@
             <article class="catalog-card">
               <a class="card-title-link"  href="#" target="_blank">
                 <h4 class="card-title">Desert Quail Inn</h4>
-                <img class="card-img" src="images/catalog/catalog-for-quailinn.jpg" width="280" height="212" alt="Вид из гостиницы: мост дьявола">
+                <img class="card-img" src="images/catalog/catalog-for-quailinn.jpg" width="300" height="212" alt="Вид из гостиницы: мост дьявола">
               </a>
               <section class="card-description">
                 <h5 class="visually-hidden">Описание карточки Desert Quail Inn</h5>
@@ -257,7 +257,7 @@
             <article class="catalog-card">
               <a class="card-title-link"  href="#" target="_blank">
                 <h4 class="card-title">GreenTree Inn</h4>
-                <img class="card-img" src="images/catalog/catalog-for-greentree.jpg" width="280" height="212" alt="Вид из гостиницы: ночью небо не засвечено огнями города что позволяет насладиться зведным небом и горами">
+                <img class="card-img" src="images/catalog/catalog-for-greentree.jpg" width="300" height="212" alt="Вид из гостиницы: ночью небо не засвечено огнями города что позволяет насладиться зведным небом и горами">
               </a>
               <section class="card-description">
                 <h5 class="visually-hidden">Описание карточки GreenTree Inn</h5>
@@ -299,7 +299,7 @@
           </li>
         </ol>
       </section>
-      <footer class="subscribe">
+      <footer class="subscribe" data-test="subscribe">
         <div class="subscribe-wrapper">
           <hgroup class="hgroup">
             <h2 class="big-title">Подпишитесь на рассылку</h2>
@@ -313,7 +313,7 @@
         </div>
       </footer>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer" data-test="footer">
       <div class="main-footer-wrapper">
         <ul class="social-list">
           <li class="social-item">
