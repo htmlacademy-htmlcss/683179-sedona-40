@@ -1117,10 +1117,10 @@ padding-bottom: 22px;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  max-width: 200px;
+  flex-basis: 150px;
 }
 
-.catalog-filter-group:nth-child(3n) {
+.catalog-filter-group:nth-child(3) {
   margin-left: auto;
 }
 
